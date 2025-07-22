@@ -24,4 +24,4 @@ jobs:
         run: npm install -g cspell
 
       - name: Run cspell
-        run: npm run spellcheck # Ensure 'cspell' script is defined in package.json
+        run: npm run cspell # Ensure 'cspell' script is defined in package.json
