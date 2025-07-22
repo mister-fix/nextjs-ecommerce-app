@@ -7,6 +7,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [v0.2.1] - 2025-07-22
+
+### Added
+
+- N/A (no additions in this release)
+
 ### Changed
 
 - Formatted all components `prettier`.
@@ -15,6 +21,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Fixed typo in 'lint:fix' script in the `package.json` file.
 - Re-ran `npm install` to ensure `husky` is correctly installed to trigger hooks.
+
+### Refactored
+
+- N/A (no refactors in this release)
+
+### Removed
+
+- N/A (no removals in this release)
 
 ## [v0.2.0] - 2025-07-22
 
@@ -102,7 +116,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Markdown formatting configuration in the `.prettierrc` file.
 
-[Unreleased]: https://github.com/mister-fix/nextjs-ecommerce-app/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/mister-fix/nextjs-ecommerce-app/compare/v0.2.1...HEAD
+[v0.2.1]: https://github.com/mister-fix/nextjs-ecommerce-app/compare/v0.2.0...v0.2.1
 [v0.2.0]: https://github.com/mister-fix/nextjs-ecommerce-app/compare/v0.1.1...v0.2.0
 [v0.1.1]: https://github.com/mister-fix/nextjs-ecommerce-app/compare/v0.1.0...v0.1.1
 [v0.1.0]: https://github.com/mister-fix/nextjs-ecommerce-app/releases/v0.1.0
