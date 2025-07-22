@@ -17,14 +17,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - `.gitignore` for Node.js, Next.js, and editor files
 - `.npmrc` and `.nvmrc` for package and Node.js version management
 - `CHANGELOG.md` following Keep a Changelog format
-- README template (if present)
+- README with project description, structure diagram, and quick start guide
 - Basic configuration files (`package.json`, `tsconfig.json`, etc.)
 - ESLint, Prettier, and commitlint configuration files (`eslint.config.mjs`, `.prettierrc`, `commitlint.config.mjs`)
 - Git `pre-commit` and `commit-msg` hooks with `husky`
+- Initialized `shadcn/ui` for UI components
 
 ### Changed
 
 - Log level setting in the `.npmrc` file
+- Project Node version in the `.nvmrc` file
 
 ### Fixed
 
