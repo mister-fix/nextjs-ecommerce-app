@@ -1,13 +1,29 @@
 #!/usr/bin/env sh
 # . "$(dirname -- "$0")/_/husky.sh"
 
-# Run Commitlint first
+echo "=== Running commit-msg hook ==="
+echo "Commit message file: $1"
+echo "-----------------------------"
+
+# 1. Run Commitlint
+echo "⏳ Running commitlint validation..."
 npx --no -- commitlint --edit "$1"
+echo "✅ Commitlint validation passed"
+echo "-----------------------------"
 
-# Get first line of commit message (subject)
+# 2. Prepare commit message for spell check
+echo "📋 Extracting commit message subject line..."
 MSG_HEAD=$(head -n 1 "$1")
+echo "Commit message subject: '$MSG_HEAD'"
 
-# Only run spell check if message is not empty
+# 3. Run spell check if message exists
 if [ -n "$MSG_HEAD" ]; then
+  echo "🔍 Running spell check on commit message..."
   echo "$MSG_HEAD" | npx cspell --no-summary --no-progress --language-id commit-msg stdin
+  echo "✅ Spell check completed"
+else
+  echo "⚠️  Empty commit message - skipping spell check"
 fi
+
+echo "-----------------------------"
+echo "🎉 Commit-msg hook completed successfully"
