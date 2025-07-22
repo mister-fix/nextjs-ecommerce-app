@@ -1,0 +1,74 @@
+{
+	"name": "nextjs-ecommerce-app",
+	"version": "0.1.0",
+	"private": true,
+	"description": "A Next.js multi-tenant e-commerce application.",
+	"author": {
+		"name": "mister-fix",
+		"url": "https://stephenwm.com/"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/mister-fix/nextjs-ecommerce-app#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mister-fix/nextjs-ecommerce-app.git"
+	},
+	"bugs": {
+		"url": "https://github.com/muister-fix/nextjs-ecommerce-app/issues"
+	},
+	"keywords": [],
+	"scripts": {
+		"prepare": "husky",
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"lint:fix": "next lin --fix",
+		"prettier": "prettier --write .",
+		"prettier:check": "prettier --check .",
+		"cspell": "cspell ** --dot",
+		"format": "npm run lint:fix && npm run prettier",
+		"lint:all": "npm-run-all --parallel lint prettier:check cspell",
+		"docs": "open-cli https://github.com/mister-fix/wavv/blob/main/README.md"
+	},
+	"lint-staged": {
+		"{*.js?(x),*.ts?(x)}": ["eslint --fix", "prettier --write"],
+		"!**/*.prettierrc": []
+	},
+	"dependencies": {
+		"next": "15.4.2",
+		"react": "19.1.0",
+		"react-dom": "19.1.0"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^19.8.1",
+		"@commitlint/config-conventional": "^19.8.1",
+		"@commitlint/format": "^19.8.1",
+		"@cspell/dict-filetypes": "^3.0.13",
+		"@cspell/dict-git": "^3.0.7",
+		"@cspell/dict-typescript": "^3.2.3",
+		"@eslint/eslintrc": "^3",
+		"@tailwindcss/postcss": "^4",
+		"@types/node": "^20",
+		"@types/react": "^19",
+		"@types/react-dom": "^19",
+		"cspell": "^9.2.0",
+		"cspell-dictionary": "^9.2.0",
+		"eslint": "^9",
+		"eslint-config-next": "15.4.2",
+		"husky": "^9.1.7",
+		"lint-staged": "^16.1.2",
+		"npm-run-all": "^4.1.5",
+		"open-cli": "^8.0.0",
+		"prettier": "^3.6.2",
+		"pretty-quick": "^4.2.2",
+		"tailwindcss": "^4",
+		"typescript": "^5"
+	},
+	"contributors": [
+		{
+			"name": "mister-fix",
+			"url": "https://github.com/mister-fix"
+		}
+	]
+}
