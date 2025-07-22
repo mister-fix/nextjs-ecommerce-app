@@ -7,6 +7,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [v0.1.0] - 2025-07-22
+
 ### Added
 
 - Initial Next.js project scaffold
@@ -31,9 +33,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Fixed
 
 - Code spell check workflow to ensure the correct `cspell` script is being called
+- [Unreleased] link in this CHANGELOG file
+
+### Refactored
+
+- N/A (no refactors in this release)
 
 ### Removed
 
 - Markdown formatting configuration in the `.prettierrc` file
 
-[Unreleased]: https://github.com/topfrag-gg/codstats-api/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/mister-fix/nextjs-ecommerce-app/compare/v0.1.0...HEAD
+[v0.1.0]: https://github.com/mister-fix/nextjs-ecommerce-app/releases/v0.1.0
