@@ -3,6 +3,3 @@
 
 # Run Commitlint on staged files
 npx --no -- commitlint --edit ${1}
-
-# Run spell check on commit message
-exec npx cspell --no-summary --no-progress --language-id commit-msg $1

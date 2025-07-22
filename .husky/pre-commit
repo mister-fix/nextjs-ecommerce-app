@@ -7,3 +7,4 @@ exec git diff --cached --name-only | npx cspell --no-summary --no-progress --no-
 # Lint and format
 npx lint-staged
 npx pretty-quick --staged
+
