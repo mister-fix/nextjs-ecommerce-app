@@ -59,7 +59,7 @@
 	],
 	"dictionaryDefinitions": [],
 	"files": ["**/*.{txt,md,json,js,cjs,mjs,ts,jsx,tsx,yml,yaml,toml}"],
-	"words": ["API", "microsite", "wavv", "tseslint"],
+	"words": ["API", "microsite", "wavv", "tseslint", "shadcn", "shadcn/ui"],
 	"ignoreWords": ["ecommerce", "logomark"],
 	"import": ["@cspell/dict-filetypes/cspell-ext.json", "@cspell/dict-typescript/cspell-ext.json"]
 }
