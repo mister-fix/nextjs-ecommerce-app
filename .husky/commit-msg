@@ -1,5 +1,13 @@
-# !/usr/bin/env sh
+#!/usr/bin/env sh
 # . "$(dirname -- "$0")/_/husky.sh"
 
-# Run Commitlint on staged files
-npx --no -- commitlint --edit ${1}
+# Run Commitlint first
+npx --no -- commitlint --edit "$1"
+
+# Get first line of commit message (subject)
+MSG_HEAD=$(head -n 1 "$1")
+
+# Only run spell check if message is not empty
+if [ -n "$MSG_HEAD" ]; then
+  echo "$MSG_HEAD" | npx cspell --no-summary --no-progress --language-id commit-msg stdin
+fi
