@@ -22,12 +22,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - ESLint, Prettier, and commitlint configuration files (`eslint.config.mjs`, `.prettierrc`, `commitlint.config.mjs`)
 - Git `pre-commit` and `commit-msg` hooks with `husky`
 
+### Changed
+
+- Log level setting in the `.npmrc` file
+
 ### Fixed
 
-- Code spell check workflow to ensure the correct `cspell` script is being called.
+- Code spell check workflow to ensure the correct `cspell` script is being called
 
 ### Removed
 
-- Markdown formatting configuration in the `.prettierrc` file.
+- Markdown formatting configuration in the `.prettierrc` file
 
 [Unreleased]: https://github.com/topfrag-gg/codstats-api/compare/v0.1.0...HEAD
