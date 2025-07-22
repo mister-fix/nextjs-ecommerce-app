@@ -7,6 +7,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [v0.2.0] - 2025-07-22
+
 ### Added
 
 - Integrated ShadCN UI components.
@@ -25,9 +27,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Punctuation in this CHANGELOG file.
 
+### Refactored
+
+- N/A (no refactors in this release)
+
 ### Removed
 
-- Unused default SVG's in the `public` folder
+- Unused default SVG's in the `public` folder.
 
 ## [v0.1.1] - 2025-07-22
 
@@ -87,6 +93,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Markdown formatting configuration in the `.prettierrc` file.
 
-[Unreleased]: https://github.com/mister-fix/nextjs-ecommerce-app/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/mister-fix/nextjs-ecommerce-app/compare/v0.2.0...HEAD
+[v0.2.0]: https://github.com/mister-fix/nextjs-ecommerce-app/compare/v0.1.1...v0.2.0
 [v0.1.1]: https://github.com/mister-fix/nextjs-ecommerce-app/compare/v0.1.0...v0.1.1
 [v0.1.0]: https://github.com/mister-fix/nextjs-ecommerce-app/releases/v0.1.0
