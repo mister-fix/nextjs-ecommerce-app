@@ -12,6 +12,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Integrated ShadCN UI components.
 - Created custom `Icon` component using `lucide-react`.
 - Added `"tensell"` to `cspell` dictionary to prevent false spelling errors.
+- GitHub `stale.yml` configuration for issues and pull requests.
+- Tensell primary and light colored logo SVGs in the `public` folder.
 
 ### Changed
 
@@ -22,6 +24,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Fixed
 
 - Punctuation in this CHANGELOG file.
+
+### Removed
+
+- Unused default SVG's in the `public` folder
 
 ## [v0.1.1] - 2025-07-22
 
