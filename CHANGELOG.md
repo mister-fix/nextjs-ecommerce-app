@@ -7,6 +7,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Changed
+
+- Formatted all components `prettier`.
+
+### Fixed
+
+- Fixed typo in 'lint:fix' script in the `package.json` file.
+- Re-ran `npm install` to ensure `husky` is correctly installed to trigger hooks.
+
 ## [v0.2.0] - 2025-07-22
 
 ### Added
