@@ -11,6 +11,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Build workflow for GitHub actions (`.github/workflows/build.yml`)
 
+### Changed
+
+- Set `*.yml` and `*.yaml` files as language-detectable in `.gitattributes`
+
 ## [v0.1.0] - 2025-07-22
 
 ### Added
