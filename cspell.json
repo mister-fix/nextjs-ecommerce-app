@@ -28,7 +28,8 @@
 		"generated",
 		".gitignore",
 		".prettierignore",
-		"LICENSE"
+		"LICENSE",
+		".next"
 	],
 	"languageSettings": [
 		{
@@ -59,6 +60,6 @@
 	"dictionaryDefinitions": [],
 	"files": ["**/*.{txt,md,json,js,cjs,mjs,ts,jsx,tsx,yml,yaml,toml}"],
 	"words": ["API", "microsite", "wavv", "tseslint"],
-	"ignoreWords": ["ecommerce"],
+	"ignoreWords": ["ecommerce", "logomark"],
 	"import": ["@cspell/dict-filetypes/cspell-ext.json", "@cspell/dict-typescript/cspell-ext.json"]
 }
