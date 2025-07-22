@@ -90,6 +90,10 @@ pnpm-lock.yaml -merge
 *.md linguist-language=Markdown
 *.sh linguist-language=Shell
 
+# Detect certain languages
+*.yml linguist-detectable
+*.yaml linguist-detectable
+
 # Treat CI/CD and config files as source
 .github/** linguist-language=YAML
 .vscode/** linguist-language=JSON
