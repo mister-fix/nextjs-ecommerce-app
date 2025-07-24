@@ -37,9 +37,9 @@ const navbarItems = [
 		children: 'Home',
 	},
 	{
-		path: '/browse',
-		label: 'Browse',
-		children: 'Browse',
+		path: '/features',
+		label: 'Features',
+		children: 'Features',
 	},
 	{
 		path: '/how-it-works',
@@ -47,20 +47,20 @@ const navbarItems = [
 		children: 'How it Works',
 	},
 	{
-		path: '/features',
-		label: 'Features',
-		children: 'Features',
-	},
-	{
 		path: '/pricing',
 		label: 'Pricing',
 		children: 'Pricing',
 	},
-	// {
-	// 	path: '/become-a-seller',
-	// 	label: 'Become a Seller',
-	// 	children: 'Become a Seller',
-	// },
+	{
+		path: '/become-a-seller',
+		label: 'Become a Seller',
+		children: 'Become a Seller',
+	},
+	{
+		path: '/browse',
+		label: 'Browse',
+		children: 'Browse',
+	},
 ];
 
 export const Navbar = () => {
