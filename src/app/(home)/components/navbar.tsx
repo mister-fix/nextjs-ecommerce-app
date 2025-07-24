@@ -110,7 +110,7 @@ export const Navbar = () => {
 						</Link>
 						<Link
 							href="#"
-							className="px-4 py-2 font-medium bg-[#86ee02] rounded-full outline-2 outline-[#03301d] hover:bg-[#03301d] hover:text-white hover transition-colors duration-300"
+							className="px-4 py-2 font-medium bg-[#86ee02] rounded-full border-2 border-[#03301d] hover:bg-[#03301d] hover:text-white hover transition-colors duration-300"
 						>
 							Start selling
 						</Link>
@@ -119,7 +119,7 @@ export const Navbar = () => {
 					<div className="flex items-center justify-between lg:hidden">
 						<Link
 							href="#"
-							className="px-4 py-2 font-medium bg-[#86ee02] rounded-full outline-2 outline-[#03301d] hover:bg-[#03301d] hover:text-white hover transition-colors duration-300"
+							className="px-4 py-2 font-medium bg-[#86ee02] rounded-full border-2 border-[#03301d] hover:bg-[#03301d] hover:text-white hover transition-colors duration-300"
 						>
 							Start selling
 						</Link>
