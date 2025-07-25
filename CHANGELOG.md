@@ -7,6 +7,37 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Added
+
+- **Home Page**:
+  - Hero section with CTA
+  - Masonry-style feature highlight section
+  - Pricing preview and testimonials
+  - CTA block and SEO cards linking to features, how it works, and more
+- **Features Page**:
+  - Breakdown of key platform tools, integrations, and branding features
+  - Reusable aside CTA and breadcrumb component
+  - Tailored for creator and seller personas
+- **How It Works Page**:
+  - Step-by-step onboarding and usage explanation
+  - Friendly tone, CTA, and breadcrumb support
+- **Pricing Page**:
+  - Tiered plan comparison: Starter, Business, Premium
+  - Feature matrix with visual pricing clarity
+  - Metadata for SEO
+- **Become a Seller Page**
+  - Information on how to start your own store on Tensell
+- **Global Additions**:
+  - Breadcrumb navigation for all secondary pages
+  - SEO metadata: `<title>` and `<meta description>` per page
+  - CTA reused via styled `<aside>` component
+  - Improved usage of brand colors (bright green, dark green, and muted backgrounds) for consistency and accessibility
+
+### Changed
+
+- Updated layout styling to support responsive flex-wrap “badge” styling for audience section.
+- Polished visual hierarchy and button theming to better reflect brand identity.
+
 ## [v0.2.1] - 2025-07-22
 
 ### Added
