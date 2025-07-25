@@ -14,7 +14,7 @@ const pricingTiers = [
 		popular: false,
 	},
 	{
-		name: 'Growth',
+		name: 'Creator',
 		price: '$22',
 		includes: [
 			'Everything in Starter',
@@ -210,8 +210,8 @@ export default function Pricing() {
 				<div className="text-center">
 					<h3 className="text-2xl font-bold mb-4">Start Risk-Free</h3>
 					<p className="text-base lg:text-lg text-gray-600 mb-6">
-						14-day free trial—no card required. Launch your store today and keep
-						100% of your profits.
+						14-day free trial, no card required. Launch your store today and
+						keep 100% of your profits.
 					</p>
 					<Link
 						href="#"
@@ -222,7 +222,10 @@ export default function Pricing() {
 					</Link>
 					<p className="mt-4 text-gray-500">
 						Need more?{' '}
-						<Link href="#" className="text-green-600 hover:underline">
+						<Link
+							href="/pricing#compare-pricing"
+							className="text-green-600 hover:underline"
+						>
 							Compare detailed pricing
 						</Link>
 						.
