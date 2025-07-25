@@ -60,6 +60,8 @@ nextjs-ecommerce-app/
 ├─ public/                    # Static assets (images, favicon, etc.) served at the root
 ├─ src/                       # Source code for the application
 │  ├─ app/                    # Next.js app directory (routing, pages, layouts)
+│  ├─ components/             # Reusable UI components
+│  ├─ hooks/                  # Custom React.js hooks
 │  ├─ lib/                    # Shared libraries, utilities, and helper functions
 ├─ .editorconfig              # Editor configuration for consistent coding styles
 ├─ .gitattributes             # Git settings (e.g., line endings, diff behavior)
