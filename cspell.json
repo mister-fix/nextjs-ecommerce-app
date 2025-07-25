@@ -62,19 +62,20 @@
 	"words": [
 		"API",
 		"choosealicense",
+		"dribbble",
 		"Gumroad",
 		"merch",
 		"microsite",
+		"Podcasters",
 		"rxaviers",
 		"Sellfy",
 		"shadcn",
 		"shadcn/ui",
 		"tseslint",
-		"upsell",
-		"wavv",
-		"dribbble",
 		"unsplash",
-		"Podcasters"
+		"upsell",
+		"upselling",
+		"wavv"
 	],
 	"ignoreWords": ["Tensell", "ecommerce", "logomark"],
 	"import": ["@cspell/dict-filetypes/cspell-ext.json", "@cspell/dict-typescript/cspell-ext.json"]
