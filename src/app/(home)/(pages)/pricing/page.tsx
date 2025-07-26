@@ -51,6 +51,7 @@ const pricingTiers = [
 			'Everything in Starter',
 			'Subscription & memberships',
 			'Advanced analytics',
+			'Unlimited products',
 			'Cart abandonment recovery',
 		],
 		popular: true,
@@ -68,6 +69,8 @@ const pricingTiers = [
 			'Affiliate marketing tools',
 			'Priority support',
 			'Custom branding',
+			'Email marketing',
+			'Core marketing features',
 		],
 		popular: false,
 		extras: [
@@ -100,10 +103,12 @@ const yearlyTiers = [
 			'Subscription & memberships',
 			'Advanced analytics',
 			'Unlimited products',
+			'Cart abandonment recover',
 		],
 		popular: true,
 		extras: [
 			'Product upselling',
+			'Unlimited products',
 			'Cart abandonment recovery',
 			'Affiliate marketing',
 		],
@@ -177,7 +182,7 @@ export default function Page() {
 								{pricingTiers.map((tier) => (
 									<Card
 										key={tier.name}
-										className={`border-2 shadow-none ${tier.popular === true ? ' border-[#03301d]' : 'border-gray-200/50'} rounded-xl p-6 hover:shadow-lg transition-shadow relative hover:border-[#03301d]`}
+										className={`border-2 shadow-none ${tier.popular === true ? ' border-[#03301d]' : 'border-gray-200/50'} rounded-xl px-0 py-6 hover:shadow-lg transition-shadow relative hover:border-[#03301d]`}
 									>
 										{tier.popular === true ?
 											<div className="absolute top-0 right-0 bg-[#86ee02] border-2 border-t-0 border-r-0 border-[#03301d] text-[#03301d] text-xs font-bold px-3 py-1 rounded-bl-lg rounded-tr-lg">
@@ -188,7 +193,7 @@ export default function Page() {
 											<CardTitle className="text-2xl font-bold text-gray-900 mb-2">
 												{tier.name}
 											</CardTitle>
-											<CardDescription className="text-4xl  text-gray-900font-bold mb-4">
+											<CardDescription className="text-4xl  text-gray-900 font-bold mb-4">
 												{tier.price}
 												<span className="text-lg text-gray-500">/month</span>
 											</CardDescription>
@@ -202,11 +207,11 @@ export default function Page() {
 												))}
 											</ul>
 											{tier.extras.length > 0 ?
-												<div className="flex flex-col gap-y-6">
+												<div className="flex flex-col gap-y-4">
 													<span className="text-muted-foreground">
 														Growth features
 													</span>
-													<ul className="mt-3 space-y-3">
+													<ul className="space-y-3">
 														{tier.extras.map((label) => (
 															<li
 																key={label}
@@ -235,7 +240,7 @@ export default function Page() {
 								{yearlyTiers.map((tier) => (
 									<Card
 										key={tier.name}
-										className={`border-2 shadow-none ${tier.popular === true ? ' border-[#03301d]' : 'border-gray-200/50'} rounded-xl p-6 hover:shadow-lg transition-shadow relative hover:border-[#03301d]`}
+										className={`border-2 shadow-none ${tier.popular === true ? ' border-[#03301d]' : 'border-gray-200/50'} rounded-xl px-0 py-6 hover:shadow-lg transition-shadow relative hover:border-[#03301d]`}
 									>
 										{tier.popular === true ?
 											<div className="absolute top-0 right-0 bg-[#86ee02] border-2 border-t-0 border-r-0 border-[#03301d] text-[#03301d] text-xs font-bold px-3 py-1 rounded-bl-lg rounded-tr-lg">
@@ -246,7 +251,7 @@ export default function Page() {
 											<CardTitle className="text-2xl font-bold text-gray-900 mb-2">
 												{tier.name}
 											</CardTitle>
-											<CardDescription className="text-4xl  text-gray-900font-bold mb-4">
+											<CardDescription className="text-4xl  text-gray-900 font-bold mb-4">
 												{tier.price}
 												<span className="text-lg text-gray-500">/month</span>
 											</CardDescription>
@@ -260,11 +265,11 @@ export default function Page() {
 												))}
 											</ul>
 											{tier.extras.length > 0 ?
-												<div className="flex flex-col gap-y-6">
+												<div className="flex flex-col gap-y-4">
 													<span className="text-muted-foreground">
 														Growth features
 													</span>
-													<ul className="mt-3 space-y-3">
+													<ul className="space-y-3">
 														{tier.extras.map((label) => (
 															<li
 																key={label}
