@@ -64,7 +64,7 @@ export function AudienceShowcase() {
 				</div>
 				<div className="mt-4 w-full flex justify-center">
 					<Link
-						href="/how-it-works"
+						href="/become-a-seller"
 						className="inline-block bg-[#86ee02] text-black font-semibold px-6 py-3 rounded-full hover:bg-[#03301d] border-2 border-[#03301d] hover:text-white transition duration-300 cursor-pointer"
 					>
 						<span className="flex items-center justify-center gap-x-2">
